@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Ants {
+
+    background: #020238;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.home {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.home h1 {
+    font-size: 50px;
+    color: beige;
+    margin-bottom: 20px;
+}
+
+.home span {
+    color: orange;
+}
+
+.home p {
+    color: rgb(170, 166, 166);
+    line-height: 22px;
+}
+
+.home a {
+    background: bisque;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.about {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.about blockquote {
+    color: aliceblue;
+    line-height: 32px;
+    font-size: 27px;
+}
+
+.skills {
+    color: orange;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.skills div {
+    border-radius: 2rem;
+    height: 1rem;
+    font-size: medium;
+    text-align: center;
+    margin: 0.5rem;
+    color: rgb(19, 18, 18);
+    padding: 0.25rem;
+
+}
+
+#Rsm {
+    width: 100%;
+    background-color: red;
+}
+
+#Rm {
+    width: 65%;
+    background-color: yellow;
+}
+
+#Tm {
+    width: 90%;
+    background-color: pink;
+}
+
+#Ct {
+    width: 85%;
+    background-color: rgb(18, 172, 56);
+}
+
+.portfolio {
+    color: aliceblue;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.image-container {
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
